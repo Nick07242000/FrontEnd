@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+/*--Header--*/
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0%;
+}
+
+/*--Main--*/
+
+.banner {
+    background: url("../img/lemonpie.jpg") rgba(0, 0, 0, 0.3);
+    background-blend-mode: darken;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding-top: 15%;
+}
+
+.banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.banner p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.ingredientes h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ingredientes h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.ingredientes ul li {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.instrucciones {
+    font-family: 'Inter', sans-serif;
+}
+
+.instrucciones h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.layer {
+    background-color: ;
+}
