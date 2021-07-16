@@ -1,42 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/*--General*/
+
 body {
     background-color: #06334B;
-    margin: 10%;
+    color: #E7F1FF;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
     width: 80%;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+:is(h1,h2) {
+    background-color: #E7F1FF;
+    border-radius: 25px;
+    color: #1C467E;
+    padding: 1%;
 }
 
 /*--Header--*/
 
 h1 {
-    background-color: #E7F1FF;
-    color: #1C467E;
-    font-size: 2vw;
-    padding: 10px;
+    font-size: 36px;
+    font-weight: 700;
     text-align: center;
-    border-radius: 25px;
 }
 
-header nav {
-    color: #E7F1FF;
+header ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    width: fit-content;
+} 
+
+header li {
+    float: left;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: #E7F1FF
 }
 
 .fab {
     color: #E7F1FF;
-    margin-right: 1%;
+    padding: 3px;
 }
 
 .picture{
+    border-radius: 25px;
     display: block;
     margin: 0 auto;
     margin-top: 5%;
     margin-bottom: 5%;;
-    width: 20%;
-    transform: rotate(45deg);
     overflow: hidden;
-    border-radius: 25px;
+    transform: rotate(45deg);
+    width: 20%;
 }
 
 .picture img{
     max-width: 100%;
     transform: rotate(-45deg) scale(1.42);
     position: bottom center;
+}
+
+/*--Main--*/
+
+main h2 {
+    text-indent: 10px;
 }
