@@ -11,3 +11,6 @@ Projects from the FrontEnd Subject in the Certified Tech Developer degree.
 * CurriculumVitaeBatman
   * [Files](https://github.com/Nick07242000/FrontEnd/tree/main/CurriculumVitaeBatman)
   * [Site](https://nick07242000.github.io/FrontEnd/CurriculumVitaeBatman/)
+* CurriculumVitae
+  * [Files](https://github.com/Nick07242000/FrontEnd/tree/main/CurriculumVitae)
+  * [Site](https://nick07242000.github.io/FrontEnd/CurriculumVitae/)
