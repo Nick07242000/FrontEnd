@@ -1,0 +1,42 @@
+body {
+    background-color: #06334B;
+    margin: 10%;
+    width: 80%;
+}
+
+/*--Header--*/
+
+h1 {
+    background-color: #E7F1FF;
+    color: #1C467E;
+    font-size: 2vw;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+header nav {
+    color: #E7F1FF;
+}
+
+.fab {
+    color: #E7F1FF;
+    margin-right: 1%;
+}
+
+.picture{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    margin-bottom: 5%;;
+    width: 20%;
+    transform: rotate(45deg);
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.picture img{
+    max-width: 100%;
+    transform: rotate(-45deg) scale(1.42);
+    position: bottom center;
+}
