@@ -2,6 +2,10 @@
 
 /*--General*/
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: #06334B;
     color: #E7F1FF;
@@ -15,11 +19,28 @@ body {
     font-weight: 700;
 }
 
-:is(h1,h2) {
+:is(.fab,.fas) {
+    padding: 4px;
+}
+
+:is(h1,h2,footer) {
     background-color: #E7F1FF;
     border-radius: 25px;
     color: #1C467E;
     padding: 1%;
+}
+
+:is(header ul, footer ul) {
+    list-style-type: none;
+    margin: auto;
+    overflow: hidden;
+    padding-left: 0px;
+    width: fit-content;
+}
+
+:is(header li, footer li) {
+    float: left;
+    padding: 10px;
 }
 
 /*--Header--*/
@@ -30,34 +51,14 @@ h1 {
     text-align: center;
 }
 
-header ul {
-    list-style-type: none;
-    overflow: hidden;
-    margin: auto;
-    width: fit-content;
-} 
-
-header li {
-    float: left;
-    padding: 10px;
-}
-
 header a {
-    text-decoration: none;
     color: #E7F1FF
-}
-
-.fab {
-    color: #E7F1FF;
-    padding: 3px;
 }
 
 .picture{
     border-radius: 25px;
     display: block;
-    margin: 0 auto;
-    margin-top: 5%;
-    margin-bottom: 5%;;
+    margin: 5% auto 5%;
     overflow: hidden;
     transform: rotate(45deg);
     width: 20%;
@@ -73,4 +74,39 @@ header a {
 
 main h2 {
     text-indent: 10px;
+}
+
+main li {
+    padding: 2px 0;
+}
+
+main dl {
+    padding-left: 40px;
+}
+
+main dt {
+    font-weight: 700;
+    padding: 2px 0;
+}
+
+main dd {
+    margin-left: 0;
+    padding: 2px 0;
+}
+
+/*--Footer--*/
+
+footer {
+    margin: 2% 0;
+}
+
+footer h3 {
+    font-weight: 700;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+footer a {
+    color: #06334B;
 }
