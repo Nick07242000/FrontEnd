@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.fas {
+    padding: 0 3px;
+}
+
+/*--------------------Header--------------------*/
+
+/*--Header-First-Div--*/
+
+.header-select-container {
+    background-color: #222222;
+    color: #F3F3F3;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px;
+}
+
+.header-select-container-text {
+    display: inline;
+    margin-left: 4%;
+}
+
+.header-select-container-text p {
+    display: inline;
+}
+
+.header-select-container-selects {
+    display: inline;
+    position: absolute;
+    right: 3%;
+}
+
+.header-select-container-selects select {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/*--Header-Second-Div--*/
+
+.header-nav-bar-container {
+    background-color: #F0A83E;
+    color: white;
+}
+
+.header-nav-bar-container-logo {
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.header-nav-bar-container-logo a {
+    color: inherit;
+}
+
+.header-nav-bar-container-logo img {
+    height: 13.17px;
+    width: 17.71px;
+}
+
+.header-nav-bar-container-logo h1 {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.header-nav-bar-container-logo span {
+    color: #3C2313;
+}
+
+.header-nav-bar-container-nav {
+    display: inline;
+    margin: 15.89px 0;
+    position: absolute;
+    right: 2.5%;
+}
+
+.header-nav-bar-container-nav nav {
+    display: inline;
+}
+
+.header-nav-bar-container-nav ul {
+    display: inline;
+    padding: 0;
+}
+
+.header-nav-bar-container-nav a {
+    color: inherit;
+    padding: 15.89px 10px;
+}
+
+.header-nav-bar-container-nav li {
+    display: inline;
+}
+
+/*--------------------Main--------------------*/
+
+.main-banner {
+    background: url(../img/bowl-and-pet-daities-on-green-background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center left;
+    height: 35vh;
+}
+
+.main-banner-text {
+    position: absolute;
+    right: 1%;
+}
+
+.main-banner-text p {
+    color: #3C2313;
+    margin: 0;
+}
+
+.main-banner-text-sentence-one{
+    background-color: white;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 43% 0 0;
+    padding: 9px 10px;
+    width: fit-content;
+}
+
+.main-banner-text-sentence-two {
+    margin: 3.5% 0;
+    text-align: center;
+}
+
+.main-banner-text-button {
+    text-align: center;
+}
+
+.main-banner-text-button button {
+    background-color: #F0A83E;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 23px;
+}
