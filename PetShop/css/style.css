@@ -10,7 +10,12 @@ body {
 }
 
 .fas {
-    padding: 0 3px;
+    padding: 3px;
+}
+
+.logo img {
+    height: 13.17px;
+    width: 17.71px;
 }
 
 /*--------------------Header--------------------*/
@@ -64,11 +69,6 @@ body {
     color: inherit;
 }
 
-.header-nav-bar-container-logo img {
-    height: 13.17px;
-    width: 17.71px;
-}
-
 .header-nav-bar-container-logo h1 {
     display: inline-block;
     font-size: 20px;
@@ -96,6 +96,7 @@ body {
 
 .header-nav-bar-container-nav a {
     color: inherit;
+    font-size: 13px;
     padding: 15.89px 10px;
 }
 
@@ -104,6 +105,8 @@ body {
 }
 
 /*--------------------Main--------------------*/
+
+/*----Banner----*/
 
 .main-banner {
     background: url(../img/bowl-and-pet-daities-on-green-background.svg);
@@ -115,7 +118,7 @@ body {
 
 .main-banner-text {
     position: absolute;
-    right: 1%;
+    right: 1.2%;
 }
 
 .main-banner-text p {
@@ -147,4 +150,245 @@ body {
     border-radius: 5px;
     color: white;
     padding: 15px 23px;
+}
+
+/*----Productos----*/
+
+.main-products {
+    margin: auto;
+    width: fit-content;
+}
+
+.main-products-title i {
+    color: #F0A83E;
+    display: inline-block;
+    font-size: 71px;
+    margin: 20px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.main-products-title h2 {
+    color: #3C2313;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 2px 0 1.5vh;
+    text-align: center;
+}
+
+.main-products-title ul {
+    list-style: none;
+    margin: 1.5vh auto 3.5vh;
+    padding: 0;
+    width: fit-content;
+}
+
+.main-products-title li {
+    display: inline-block;
+}
+
+.main-products-title li a {
+    color: #666666;
+    font-size: 15px;
+    padding: 5px;
+}
+
+.main-products-title ul li:not(:first-child)::before {
+    border: 0.5px solid #666666;
+    content: "";
+    display: inline-block;
+    margin: 0 0.7vw;
+    vertical-align: middle;
+    width: 4px;
+}
+
+.main-products-products {
+    margin: 3.5vh auto 5vh;
+    width: fit-content;
+}
+
+@media (min-width: 876px) {
+    .main-products-products div {
+        background: #FBFAF6;
+        display: inline-block;
+        margin: 1vh 1vw;
+    }
+}
+
+@media (max-width: 875px) {
+    .main-products-products div {
+        background: #FBFAF6;
+        width: fit-content;
+        margin: 25px auto;
+    }
+}
+
+.main-products-products div p {
+    color: #3C2313;
+    font-weight: 500;
+    margin: 5px;
+    text-align: center;
+}
+
+.main-products-products div .main-products-products-price {
+    color: #F0A83E;
+    padding: 0 0 5px 0;
+}
+
+.main-form {
+    margin: auto;
+    width: fit-content;
+}
+
+.main-form h2 {
+    color: #3C2313;
+    font-size: 25px;
+    text-align: center;
+}
+
+.main-form-input-holder input {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    display: block;
+    font-size: 9px;
+    margin: 10px auto;
+    padding: 15px;
+    width: 30vh;
+}
+
+.main-form-button-holder {
+    text-align: center;
+    margin: 3.2vh;
+}
+
+.main-form-button-holder input {
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 6px;
+    padding: 8px 25px;
+}
+
+.main-form-button-holder input[type=reset] {
+    background-color: #8A8787;
+}
+
+.main-form-button-holder input[type=submit] {
+    background-color: #F0A83E;
+}
+
+/*--------------------Footer--------------------*/
+
+footer {
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.footer-form {
+    background-color: #F0A83E;
+    padding: 20px 23px;
+    position: relative;
+}
+
+.footer-form-text {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.footer-form-text h2 i {
+    margin-right: 10px;
+}
+
+.footer-form-form {
+    display: inline-block;
+    position: absolute;
+    right: 3%;
+    bottom: 12px;
+}
+
+.footer-form-form form input[type=text] {
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    color: #A0A0A0;
+    font-size: 9px;
+    margin-right: 3px;
+    padding: 15px 8px;
+    width: 20vw;
+}
+
+.footer-form-form form input[type=submit] {
+    background-color: #3C2313;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 9px;
+    padding: 12px 10px;
+}
+
+.footer-info {
+    background-color: #3C2313;
+    padding: 23px 0;
+    position: relative;
+}
+
+.footer-info-container {
+    margin: 10px 0 10px 3%;
+}
+
+.footer-info-container div {
+    display: inline-block;
+}
+
+.footer-info-container-icon {
+    display: inline-block;
+    background: #8A8787;
+    border: 4px solid #786960;
+    border-radius: 50%;
+    width: 58px;
+    height: 58px;
+    text-align: center;
+}
+
+.footer-info-container-icon i {
+    font-size: 45px;
+    padding: 6px;
+}
+
+.footer-info-container-text {
+    margin: 0 0 0 25px;
+}
+
+.footer-info-container-text p {
+    color: #8A8787;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.footer-info-logo {
+    position: absolute;
+    right: 5%;
+    bottom: 45.774647887323943661971830985916%;
+}
+
+.footer-info-logo h2 {
+    display: inline;
+    color: white;
+}
+
+.footer-disclaimer {
+    background-color: #222222;
+    text-align: center;
+    padding: 4px 0;
 }

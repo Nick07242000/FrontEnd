@@ -23,7 +23,7 @@
             </div>
         </div>
         <div class="header-nav-bar-container">
-            <div class="header-nav-bar-container-logo">
+            <div class="header-nav-bar-container-logo logo">
                 <a href="#">
                     <img src="img/Cat.svg" alt="">
                     <h1><span>Front</span>Cat&Dog</h1>
@@ -58,28 +58,98 @@
         </section>
         <section class="main-products">
             <div class="main-products-title">            
-                <img src="img/pawprint.svg" alt="orange pawprint">
+                <i class="fas fa-paw"></i>
                 <h2>Productos Destacados</h2>
+                <ul>
+                    <li><a href="#">Comederos</a></li>
+                    <li><a href="#">Accesorios</a></li>
+                    <li><a href="#">Comida</a></li>
+                </ul>
             </div>
-            <div>
-                <img src="img/churrasquito.svg" alt="Tres Filetes de Juguete">
-                <p>Juguete Churrasquito</p>
-                <p>$150</p>
+            <div class="main-products-products">
+                <div>
+                    <img src="img/churrasquito.svg" alt="Tres Filetes de Juguete">
+                    <p>Juguete Churrasquito</p>
+                    <p class="main-products-products-price">$150</p>
+                </div>
+                <div> 
+                    <img src="img/comedero.svg" alt="Comedero para Perro con Comida">
+                    <p>Comedero para perro</p>
+                    <p class="main-products-products-price">$650</p>
+                </div>
+                <div>
+                    <img src="img/huesito.svg" alt="">
+                    <p>Juguete Huesito</p>
+                    <p class="main-products-products-price">$250</p>
+                </div>
             </div>
-            <div>
-                <img src="img/comedero.svg" alt="Comedero para Perro con Comida">
-                <p>Comedero para perro</p>
-                <p>$650</p>
-            </div>
-            <div>
-                <img src="img/huesito.svg" alt="">
-                <p>Juguete Huesito</p>
-                <p>$250</p>
-            </div>
+        </section>
+        <section class="main-form">
+            <h2>Contáctanos</h2>
+            <form action="#">
+                <div class="main-form-input-holder">
+                    <input type="text" name="name_and_surname" placeholder="Nombre y Apellido">
+                    <input type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                    <input type="text" name="phonenumber" placeholder="Teléfono">
+                </div>
+                <div class="main-form-button-holder">
+                    <input type="reset" value="Resetear">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
         </section>
     </main>
     <footer>
-        <p>Todos los derechos reservados Front End</p>
+        <div class="footer-form">
+            <div class="footer-form-text">
+                <h2><i class="far fa-envelope"></i>Suscríbete para más novedades</h2>
+            </div>
+            <div class="footer-form-form">
+                <form action="">
+                    <input type="text" name="email" placeholder="Ingresá tu correo electronico">
+                    <input type="submit" value="Suscribirme">
+                </form>
+            </div>
+        </div>
+        <div class="footer-info">
+            <div class="footer-info-container">
+                <div class="footer-info-container-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div class="footer-info-container-text">
+                    <h2>Localidad</h2>
+                    <p>Calle - provincia</p>
+                </div>
+            </div>
+            <div class="footer-info-container">
+                <div class="footer-info-container-icon">                
+                    <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="footer-info-container-text">
+                    <h2>Teléfono</h2>
+                    <p>Número de teléfono</p>
+                </div>
+            </div>
+            <div class="footer-info-container">
+                <div class="footer-info-container-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="footer-info-container-text">
+                    <h2>Correo Electrónico</h2>
+                    <p>Dirección de correo</p>
+                </div>
+            </div>
+            <div class="footer-info-logo logo">
+                <a href="#">
+                    <img src="img/Cat.svg" alt="">
+                    <h2><span>Front</span>Cat&Dog</h2>
+                    <img src="img/Dog.svg" alt="">
+                </a>
+            </div>
+        </div>
+        <div class="footer-disclaimer">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
     </footer>
 </body>
 </html>
