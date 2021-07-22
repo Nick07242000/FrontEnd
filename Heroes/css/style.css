@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    margin: 0;
+}
+
+/*----Header----*/
+
+.header-top {
+    background-color: #1CD1B0;
+}
+
+.header-top p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+.header-bottom {
+    background-color: #00669F;
+}
+
+.header-bottom h1 {
+    font-size: 40px;
+    margin: 0;
+    padding: 28px;
+}
+
+/*----Main----*/
+
+.main-article-container {
+    width: fit-content;
+    margin: 150px auto;
+}
+
+.main-article {
+    display: inline-block;
+    margin: 30px;
+    position: relative;
+    width: 300px;
+}
+
+.main-article-bgimage {
+    height: 193px;
+}
+
+.main-article-bgimage .fas {
+    color: #CC2424;
+    font-size: 30px;
+    margin: 15px 21px;
+}
+
+.batbg {
+    background: url(../img/batbg.svg);
+}
+
+.harbg {
+    background: url(../img/harbg.svg);
+}
+
+.main-article-profilepic {
+    position: absolute;
+    top: 128px;
+    left: 90px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.main-article-text {
+    background: #F3F3F3;
+    text-align: center;
+    padding: 74px 17px 18.5px;
+}
+
+.main-article-text h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 0 10px;
+}
+
+.main-article-text p {
+    text-align: left;
+    margin-bottom: 37px;
+}
+
+.main-article-text button {
+    background-color: #00669F;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 15px 37px;
+}
+
+/*----Footer----*/
+
+footer {
+    background-color: #00669F;
+    color: white;
+    font-size: 16px;
+    padding: 16px;
+}
