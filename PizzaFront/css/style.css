@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.logo p {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo-second-color {
+    color: green;
+}
+
+.logo-last-color {
+    color: red;
+}
+
+/*----Header----*/
+
+header {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: auto;
+}
+
+.header-nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.header-nav ul li a {
+    padding: 7px;
+}
+
+/*----Main----*/
+
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box-container {
+    margin: 35px 0;
+    width: 98%;
+    height: 34.3vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-box-container h2 {
+    color: red;
+}
+
+:is(.main-box-one,.main-box-two) {
+    width: 49%;
+    border-radius: 5px;
+}
+
+.main-box-one {
+    background: url(../img/delivery.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-box-one h2 {
+    margin-left: 20px;
+}
+
+.main-box-one h2 span {
+    color: white;
+}
+
+.main-box-two {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-box-two h2 {
+    font-size: 24px;
+    margin: 26px 0;
+    align-self: center;
+}
+
+.main-box-two-imglist {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.main-box-two-list {
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-box-two-list h3 {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.main-box-two-list ol {
+    margin: 0;
+}
+
+.main-box-two-list ol li {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+/*----Footer----*/
+
+footer {
+    background-color: #222222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-list ul {
+    list-style: none;
+    margin: 19px 8px;
+    padding: 0;
+}
+
+.footer-list ul li {
+    margin: 12px 0;
+}
+
+.footer-list ul li a {
+    padding: 12px;
+}
+
+.footer-logo {
+    margin-right: 42px;
+}
