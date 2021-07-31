@@ -12,12 +12,14 @@ p {
 /*----Header----*/
 
 .header-top {
-    background-color: #1CD1B0;
+    background-color: #D1891C;
 }
 
 .header-top p {
+    color: #333333;
     font-size: 15px;
-    padding: 10px;
+    padding: 5px;
+    margin-left: 23px;
 }
 
 .header-bottom {
@@ -25,7 +27,9 @@ p {
 }
 
 .header-bottom h1 {
+    color: white;
     font-size: 40px;
+    font-weight: 400;
     margin: 0;
     padding: 28px;
 }
@@ -33,19 +37,35 @@ p {
 /*----Main----*/
 
 .main-article-container {
-    width: fit-content;
-    margin: 150px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main-article-container-rowone, .main-article-container-rowtwo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .main-article {
-    display: inline-block;
     margin: 30px;
     position: relative;
-    width: 300px;
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1700px) {
+    .main-article-container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }
 
 .main-article-bgimage {
     height: 193px;
+    border-radius: 20px 20px 0 0;
 }
 
 .main-article-bgimage .fas {
@@ -56,37 +76,61 @@ p {
 
 .batbg {
     background: url(../img/batbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wwbg {
+    background: url(../img/wwbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .harbg {
     background: url(../img/harbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ssbg {
+    background: url(../img/ssbg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .main-article-profilepic {
     position: absolute;
     top: 128px;
-    left: 90px;
+    left: 120px;
     height: 120px;
     width: 120px;
     border-radius: 50%;
     overflow: hidden;
 }
 
+.main-article-profilepic img {
+    width: inherit;
+}
+
 .main-article-text {
     background: #F3F3F3;
+    height: 380px;
     text-align: center;
-    padding: 74px 17px 18.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .main-article-text h2 {
     font-size: 30px;
     font-weight: 400;
-    margin: 0 0 10px;
+    margin: 70px 0 0 0;
 }
 
 .main-article-text p {
     text-align: left;
-    margin-bottom: 37px;
+    margin: 0 20px;
 }
 
 .main-article-text button {
@@ -94,7 +138,9 @@ p {
     border: none;
     color: white;
     font-size: 15px;
+    margin: 0 0 30px 0;
     padding: 15px 37px;
+    width: fit-content;
 }
 
 /*----Footer----*/
@@ -103,5 +149,6 @@ footer {
     background-color: #00669F;
     color: white;
     font-size: 16px;
+    text-align: center;
     padding: 16px;
 }
