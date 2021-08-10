@@ -11,22 +11,22 @@ p {
 
 /*----Header----*/
 
-.header-top {
-    background-color: #D1891C;
+.header-one {
+    background-color: #1CD1B0;
 }
 
-.header-top p {
+.header-one p {
     color: #333333;
     font-size: 15px;
     padding: 5px;
     margin-left: 23px;
 }
 
-.header-bottom {
+.header-two {
     background-color: #00669F;
 }
 
-.header-bottom h1 {
+.header-two h1 {
     color: white;
     font-size: 40px;
     font-weight: 400;
@@ -34,9 +34,31 @@ p {
     padding: 28px;
 }
 
+.header-three {
+    background-color: #001D2D;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-three ul {
+    padding: 0;
+    display: flex;
+}
+
+.header-three ul li {
+    list-style: none;
+}
+
+.header-three ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
 /*----Main----*/
 
 .main-article-container {
+    margin: 10vw 0;
     display: flex;
     justify-content: center;
 }

@@ -1,0 +1,94 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+   margin: 250px 0 360px;
+   width: 50%;
+}
+
+.form h2 {
+    font-size: 72px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form form input {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 17px 26px;
+}
+
+.form form select {
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 17px 26px;
+}
+
+.form form select {
+    color: gray
+}
+
+.form form textarea {
+    height: 300px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.button-holder {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 50px 0 20px 0;
+}
+
+.button-holder button {
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 23px;
+    font-size: 24px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+#reset {
+    background-color: #888888;
+    color: white;
+    margin-right: 10px;
+}
+
+#submit {
+    background-color: #1CD1B0;
+    margin-left: 10px;
+}
+
+main div p {
+    align-self: center;
+    font-size: 22px;
+}
+
+main div p a {
+    color: #00669F;
+    text-decoration: none;
+}
+
+main div p a::before {
+    content: ' ';
+}
