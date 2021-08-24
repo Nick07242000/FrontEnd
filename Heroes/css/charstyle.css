@@ -1,0 +1,68 @@
+.color {
+    color: #2C0187;
+}
+
+main {
+    background-image: url(../img/harbg.svg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div {
+    background-color: white;
+    border-radius: 45px;
+    width: 546px;
+    margin: 335.5px 0;
+    padding: 45px 20px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > div i {
+    color: red;
+    font-size: 40px;
+    position: absolute;
+    left: 30px;
+    top: 50px;
+}
+
+#profpic{
+    width: 159px;
+    height: 159px;
+    border-radius: 50%;
+    top: -100px;
+    position: absolute;
+}
+
+main > div h2 {
+    font-size: 32px;
+    font-weight: 500;;
+    text-decoration: underline;
+    color: #2C0187;
+}
+
+.icons {
+    display: flex;
+    padding: 15px;
+}
+
+.icons img {
+    padding: 0 20px;
+}
+
+main > div a {
+    color: white;
+    background-color: #2C0187;
+    border: none;
+    border-radius: 0 0 45px 45px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 586px;
+    padding: 30px 0;
+}
